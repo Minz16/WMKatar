@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+#header{
+    width: 98.9vw;
+    height: 100vh;
+    background: url(https://media.tenor.com/SZdIMDwJiGcAAAAC/soccer-video-game.gif) no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px;
+}
+
+.flagge {
+    float: left;
+}
+
+h1 {
+    color: black;
+    font-size: 7vw;
+}
+
+p {
+    size: 1vw;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.subtext {
+    margin: 0 20px 0 20px;
+}
+
+.knopfe {
+    width: 89.9vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.button {
+    height: 60px;
+    width: 80px;
+    border: none;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 7px;
+    border-radius: 2px;
+}
+
+footer {
+    width: 98.9vw;
+    height: 10vh;
+    font-size: 1.4vw;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 16%);
+    color: hsl(180, 6%, 78%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0;
+}

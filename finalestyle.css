@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    font-size: 7vw;
+}
+
+p {
+    size: 1vw;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+select, option {
+    font-family: "Twemoji Country Flags", "Helvetica", "Comic Sans", serif;
+    border: 1px solid transparent;
+}
+
+#ausgang {
+    font-family: "Twemoji Country Flags", "Helvetica", "Comic Sans", serif;
+}
+
+select {
+    width: 200px;
+    height: 20px;
+    background-color: dodgerblue;
+    color: white;
+    overflow: hidden;
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 16%);
+    color: hsl(180, 6%, 78%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0;
+    position: absolute;
+    bottom: 0;
+}
+
+#platte {
+    height: 30px;
+    animation: none;
+}
+
+@keyframes dreh {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}

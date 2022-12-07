@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="finalestyle.css">
+    <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+    <title>WM-Katar-Rechner</title>
+</head>
+
+<body>
+    <h2>Unsere Finale Rechner</h2>
+
+    <div class="wahl">
+        <select id="auswahleins">
+            <!--https://flagpedia.net/emoji-->
+            <option value="de">🇩🇪 Deutschland</option>
+            <option value="fr">🇫🇷 Frankreich</option>
+            <option value="ch">🇨🇭 Schweiz</option>
+        </select>
+        <select id="auswahlzwei">
+            <!--https://flagpedia.net/emoji-->
+            <option value="de">🇩🇪 Deutschland</option>
+            <option value="fr">🇫🇷 Frankreich</option>
+            <option value="ch">🇨🇭 Schweiz</option>
+            <option value="ma">🇲🇦 Marokko</option>
+            <option value="ar">🇦🇷 Argentinien</option>
+            <option value="au">🇦🇺 Australien</option>
+            <option value="be">🇧🇪 Belgien</option>
+            <option value="br">🇧🇷 Brasilien</option>
+            <option value="cr">🇨🇷 Costa Rica</option>
+            <option value="dk">🇩🇰 Dänemark</option>
+            <option value="ec">🇪🇨 Ecuador</option>
+            <option value="en">🇬🇧 England</option>
+            <option value="gh">🇬🇭 Ghana</option>
+            <option value="ir">🇮🇷 Iran</option>
+            <option value="jp">🇯🇵 Japan</option>
+            <option value="cm">🇨🇲 Kamerun</option>
+            <option value="ca">🇨🇦 Kanada</option>
+            <option value="qa">🇶🇦 Katar</option>
+            <option value="hr">🇭🇷 Kroatien</option>
+            <option value="mx">🇲🇽 Mexiko</option>
+            <option value="nl">🇳🇱 Niederlande</option>
+            <option value="pl">🇵🇱 Polen</option>
+            <option value="pt">🇵🇹 Portugal</option>
+            <option value="sa">🇸🇦 Saudi-Arabien</option>
+            <option value="sn">🇸🇳 Senegal</option>
+            <option value="rs">🇷🇸 Serbien</option>
+            <option value="es">🇪🇸 Spain</option>
+            <option value="kr">🇰🇷 Südkorea</option>
+            <option value="tn">🇹🇳 Tunesien</option>
+            <option value="uy">🇺🇾 Uruguay</option>
+            <option value="us">🇺🇸 USA</option>
+            <option value="wa">🇬🇧 Wales</option>
+        </select>
+        <p id="ausgang" onclick="rechnen()">Lualahaouvhspauo piuadpiu wah dpoaäd j</p>
+    </div>
+
+
+
+
+
+
+    <audio id="music">
+        <source src="WakaWaka.mp3" type="audio/mpeg">
+    </audio>
+    <img id="platte" onclick="play()" src="platte.png" alt="Bild von einer Schallplatte">
+
+
+
+    <footer>Hier ist unser Footer</footer>
+    <script src="script.js" defer></script>
+    <script type="module" defer>
+        import { polyfillCountryFlagEmojis } from "https://cdn.skypack.dev/country-flag-emoji-polyfill";
+        polyfillCountryFlagEmojis();
+    </script>
+</body>
+
+</html>
