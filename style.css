@@ -1,9 +1,17 @@
+:root {
+    scrollbar-width: none;
+}
+
+::selection {
+    background-color: hsl(0, 46%, 39%);
+}
+
 body {
     margin: 0;
 }
 
 #header{
-    width: 98.9vw;
+    width: 100vw;
     height: 100vh;
     background: url(https://media.tenor.com/SZdIMDwJiGcAAAAC/soccer-video-game.gif) no-repeat center fixed;
     background-size: cover;
@@ -22,8 +30,16 @@ h1 {
     font-size: 7vw;
 }
 
+h2 {
+    font-size: 4rem;
+}
+
 p {
-    size: 1vw;
+    font-size: clamp(20px, 1.6vw, 2.3rem);
+}
+
+a {
+    font-size: clamp(18px, 1.2vw, 1.5rem);
 }
 
 a:link {
@@ -41,7 +57,7 @@ a:visited {
 }
 
 .knopfe {
-    width: 89.9vw;
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: nowrap;
@@ -49,7 +65,7 @@ a:visited {
 
 .button {
     height: 60px;
-    width: 80px;
+    width: 17vw;
     border: none;
     background-color: red;
     display: flex;
@@ -57,12 +73,19 @@ a:visited {
     align-items: center;
     padding: 5px 7px;
     border-radius: 2px;
+    transition: all .3s ease-in-out;
+}
+
+.button:hover {
+    background-color: aqua;
+    width: 21vw;
+    height: 70px;
 }
 
 footer {
-    width: 98.9vw;
+    width: 100vw;
     height: 10vh;
-    font-size: 1.4vw;
+    font-size: clamp(20px, 1.6vw, 2.3rem);
     font-weight: bold;
     background-color: hsl(0, 0%, 16%);
     color: hsl(180, 6%, 78%);

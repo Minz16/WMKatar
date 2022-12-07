@@ -12,6 +12,8 @@ var nwert = 0;
 
 var sieger = none;
 
+//Unfertig
+
 function zuteiler(x) {
     if (x=="de"){
         return 0;
