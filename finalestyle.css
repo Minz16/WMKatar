@@ -59,8 +59,18 @@ select:hover {
 
 #ausgang {
     font-family: "Twemoji Country Flags", "Helvetica", "Comic Sans", serif;
+    background-color: hsl(0, 46%, 39%);
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 2vw;
+    width: 20vw;
+}
+
+.ausgangbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wahl {

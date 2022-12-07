@@ -10,7 +10,7 @@ var n = null;
 var mwert = 0;
 var nwert = 0;
 
-var sieger = none;
+var sieger = null;
 
 //Unfertig
 
