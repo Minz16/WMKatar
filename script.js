@@ -84,67 +84,67 @@ function zuteiler(x) {
 
 function werte(x) {
     if (x=="de"){
-        return 0;
+        return 10;
     } else if (x=="fr"){
-        return 1;
+        return 5;
     } else if (x=="ch"){
-        return 2;
+        return 31;
     } else if (x=="ma"){
-        return 3;
+        return 24;
     } else if (x=="ar"){
         return 4;
     } else if (x=="au"){
-        return 5;
+        return 38;
     } else if (x=="be"){
-        return 6;
+        return 19;
     } else if (x=="br"){
-        return 7;
+        return 3;
     } else if (x=="cr"){
-        return 8;
+        return 48;
     } else if (x=="dk"){
-        return 9;
+        return 21;
     } else if (x=="ec"){
-        return 10;
+        return 42;
     } else if (x=="en"){
-        return 11;
+        return 6;
     } else if (x=="gh"){
-        return 12;
+        return 50;
     } else if (x=="ir") {
-        return 13;
+        return 69;
     } else if (x=="jp") {
-        return 14;
+        return 22;
     } else if (x=="cm") {
-        return 15;
+        return 40;
     } else if (x=="ca") {
-        return 16;
+        return 23;
     } else if (x=="qa") {
-        return 17;
+        return 71;
     } else if (x=="hr") {
-        return 18;
+        return 21;
     } else if (x=="mx") {
         return 19;
     } else if (x=="nl") {
-        return 20;
+        return 9;
     } else if (x=="pl") {
-        return 21;
+        return 34;
     } else if (x=="pt") {
-        return 22;
+        return 11;
     } else if (x=="sa") {
-        return 23;
+        return 35;
     } else if (x=="sn") {
-        return 24;
+        return 46;
     } else if (x=="rs") {
-        return 25;
+        return 33;
     } else if (x=="es") {
-        return 26;
+        return 6;
     } else if (x=="kr") {
-        return 27;
+        return 36;
     } else if (x=="tn") {
-        return 28;
+        return 32;
     } else if (x=="uy") {
-        return 29;
+        return 37;
     } else if (x=="us") {
-        return 30;
+        return 34;
     } else if (x=="wa") {
         return 31;
     }
@@ -159,19 +159,13 @@ function rechnen(){
 
     //wm = mwert/(mwert+nwert)
     if ((Math.floor(Math.random() * (mwert+nwert)) + 1) <= mwert) {
-        sieger = zuteiler(m);
-    } else {
         sieger = zuteiler(n);
+    } else {
+        sieger = zuteiler(m);
     }
 
     ausgang.innerHTML = `${eins.options[sieger].innerHTML} hat gewonnen!`
 }
-
-
-
-
-
-
 
 var e = true;
 function play() {

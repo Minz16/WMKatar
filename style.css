@@ -1,6 +1,12 @@
 :root {
     scrollbar-width: none;
+    -ms-overflow-style: none;
 }
+
+:root::-webkit-scrollbar {
+    display: none;
+  }
+  
 
 ::selection {
     background-color: hsl(0, 46%, 39%);
@@ -18,7 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0 20px;
+    margin: 0;
 }
 
 .flagge {
@@ -28,6 +34,7 @@ body {
 h1 {
     color: black;
     font-size: 7vw;
+    margin: 0;
 }
 
 h2 {
@@ -52,45 +59,45 @@ a:visited {
     color: white;
 }
 
-.subtext {
-    margin: 0 20px 0 20px;
-}
-
-.knopfe {
+.hinter1 {
     width: 100vw;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-}
-
-.button {
-    height: 60px;
-    width: 17vw;
-    border: none;
-    background-color: red;
+    height: 110vh;
+    background: url(brazilien7.1.gif) no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 7px;
-    border-radius: 2px;
-    transition: all .3s ease-in-out;
 }
-
-.button:hover {
-    background-color: aqua;
-    width: 21vw;
-    height: 70px;
-}
-
-footer {
+.hinter2 {
     width: 100vw;
-    height: 10vh;
-    font-size: clamp(20px, 1.6vw, 2.3rem);
-    font-weight: bold;
-    background-color: hsl(0, 0%, 16%);
-    color: hsl(180, 6%, 78%);
+    height: 110vh;
+    background: url(messi2.0.gif) no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0 0;
+}
+
+.hinter3 {
+    width: 100vw;
+    height: 110vh;
+    background: url(Messi1.0.gif) no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hinter4 {
+    width: 100vw;
+    height: 100vh;
+    background: url(spanienhell.gif) no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

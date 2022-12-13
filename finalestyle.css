@@ -1,3 +1,6 @@
+/*view-source:https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm
+https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+*/
 :root {
     scrollbar-width: none;
 }
@@ -7,7 +10,10 @@ body {
 }
 
 .alles {
+    height: 90vh;
     margin: 20px 30px 0 30px;
+    background: url("goetze.gif") no-repeat center fixed;
+    background-size: cover;
 }
 
 h1 {
@@ -74,13 +80,19 @@ select:hover {
 }
 
 .wahl {
+    height: 69%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
 
 #platte {
     height: 30px;
+    animation: none;
+}
+
+#platte:hover {
     animation: none;
 }
 
